@@ -31,7 +31,7 @@ export default class Dashboard extends Component {
                                 <Link className="btn btn-primary btn-block" to="/add-category"><FontAwesomeIcon icon={faPlus} ></FontAwesomeIcon>Add Category</Link>
                             </div>
                             <div className="col-md-6">
-                                <Link className="btn btn-success btn-block"><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon>Add Post</Link>
+                                <Link className="btn btn-success btn-block" to="/add-post"><FontAwesomeIcon icon={faPlus}></FontAwesomeIcon>Add Post</Link>
                             </div>
                         </div>
                     </div>

@@ -13,7 +13,8 @@ import PrivateRoute from './Component/reusable/PrivateRoute';
 import PublicRoute from './Component/reusable/PublicRoute';
 import AddCategory from './Component/script/Dashboard/Category/AddCategory';
 import ViewCategory from './Component/script/Dashboard/Category/ViewCategory';
-import EditCategory from './Component/script/Dashboard/Category/EditCategory'
+import EditCategory from './Component/script/Dashboard/Category/EditCategory';
+import AddPost from './Component/script/Dashboard/Post/AddPost'
 
 
 import {BrowserRouter as Router, Route, Switch, Redirect, withRouter} from 'react-router-dom';
@@ -36,6 +37,7 @@ function App() {
       <PrivateRoute exact path="/add-category" component={AddCategory}/>
       <PrivateRoute exact path="/view-category" component={ViewCategory}/>
       <PrivateRoute exact path="/edit-category/:id" component={EditCategory}/>
+      <PrivateRoute exact path="/add-post" component={AddPost}/>
       <PublicRoute exact path="/404" component={PageNotFound}/>
       <Redirect to="/404"/>
       </Switch>

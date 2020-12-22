@@ -39,7 +39,7 @@ class ViewCategory extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="container">
+                        <div className="container mt-5">
                             <div className="row">
                                 <div className="col">
                                     <div className="card">

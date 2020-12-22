@@ -38,7 +38,6 @@ const categoryReducer = (state=initialState, action)=>{
         case "UPDATE_SUCCESS":
             return {
                 ...state,
-                success_msg:action.payload
             }
         case "UPDATE_FAILURE":
             return {

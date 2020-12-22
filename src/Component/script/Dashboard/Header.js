@@ -42,7 +42,7 @@ class Header extends Component {
                     <Link className="nav-link" to="/view-category">Category</Link>
                   </NavItem>
                   <NavItem>
-                    <Link className="nav-link" to="/add-category">Post</Link>
+                    <Link className="nav-link" to="/add-post">Post</Link>
                   </NavItem>
                 </Nav>
                 <NavItem  className="navbar-nav mr-3">
